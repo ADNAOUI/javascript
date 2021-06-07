@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+form{
+display: flex;
+flex-direction: column;
+}
+    .form-control:focus{
+        box-shadow: none;
+    }
+button{
+    width: 10%;
+}
+.verification-number{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 0 0;
+}
+.error{
+    border-color: red !important;
+    color: red !important;
+}
+.good{
+    border-color: green !important;
+    color: green !important;
+}
