@@ -10,7 +10,6 @@ $(document).ready(function(){
 
 	function emailFieldValidation()
 	{
-		e.preventDefault();
 		var mailInput = $("#email");
 
 	   	mailInput.keyup(function()
@@ -27,13 +26,10 @@ $(document).ready(function(){
 			else
 				$(this).addClass("error");
 	   	});
-
-		   return false;
 	}
 
 	function passwordFieldValidation()
 	{
-		e.preventDefault();
 		var passwdInput = $("#password");
 		var passwdVerifmInput = $("#verifPassword");
 
@@ -64,8 +60,6 @@ $(document).ready(function(){
 			else
 				$(this).addClass("error");
 		});
-
-		return false;
 	}
 
 	function initPopovers()
